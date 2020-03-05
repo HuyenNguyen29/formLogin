@@ -1,0 +1,89 @@
+.big {
+  height: 50px;
+  width: 50px;
+}
+
+.fill-red {
+  fill: red;
+}
+
+.fill-green {
+  fill: green;
+  fill-opacity: .5;
+}
+
+.form-login {
+  background: #4988fc;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+}
+
+.form-title {
+  font-size: 24px;
+}
+
+.form-login-main {
+  width: 600px;
+  background: #fff;
+  align-self: center;
+}
+
+.form-login-content {
+  width: 60%;
+} 
+
+.form-login-logo {
+  width: 40%;
+  background: #ececec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-login-main .detail {
+  font-size: 12px;
+}
+
+input:focus{
+  outline: none;
+}
+
+.group-remember-forgot-pass {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.form-email, .form-pass, .btn-login, .btn-login-face, .btn-login-google {
+  font-size: 12px;
+}
+
+.form-email input, .form-pass input, .btn-login, .btn-login-face, .btn-login-google {
+  padding: 12px;
+}
+
+.or {
+  position: relative;
+  color: #cecece;
+  font-size: 12px;
+}
+
+.or::after {
+  content: '';
+  border-bottom: 1px solid #cecece;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 45%;
+}
+
+.or::before {
+  content: '';
+  border-bottom: 1px solid #cecece;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 46%;
+}
