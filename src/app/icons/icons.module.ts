@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
 
 import { FeatherModule } from 'angular-feather';
-import { Camera, Heart, Github, Mail } from 'angular-feather/icons';
+import {Mail, Lock, Image } from 'angular-feather/icons';
 
 const icons = {
-  Camera,
-  Heart,
-  Github,
   Mail,
+  Lock,
+  Image
 };
 
 @NgModule({

@@ -1,17 +1,3 @@
-.big {
-  height: 50px;
-  width: 50px;
-}
-
-.fill-red {
-  fill: red;
-}
-
-.fill-green {
-  fill: green;
-  fill-opacity: .5;
-}
-
 .form-login {
   background: #4988fc;
   width: 100vw;
@@ -42,6 +28,11 @@
   justify-content: center;
 }
 
+.form-login-logo .icon-image {
+  width: 77px;
+  color: #b7b7b7;;
+}
+
 .form-login-main .detail {
   font-size: 12px;
 }
@@ -58,6 +49,22 @@ input:focus{
 
 .form-email, .form-pass, .btn-login, .btn-login-face, .btn-login-google {
   font-size: 12px;
+}
+
+.form-pass, .form-email {
+  position: relative;
+}
+
+.form-email .icon-email, .form-pass .icon-pass {
+  position: absolute;
+  left: 15px;
+  color: rgb(121, 121, 121);
+  width: 15px;
+  margin-top: 12px;
+}
+
+.form-email .input-email, .form-pass .input-pass {
+  padding-left: 35px;
 }
 
 .form-email input, .form-pass input, .btn-login, .btn-login-face, .btn-login-google {
